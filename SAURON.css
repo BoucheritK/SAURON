@@ -1,0 +1,46 @@
+.container-fluid {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*Ma ligne de cubes*/
+.row {
+    margin:0.5px;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+/*Comportement sur toute la grille*/
+[class*="col-"] {
+  height: 8vw;
+  width: 8vw;
+  display: flex;
+  margin:1px;
+}
+
+
+  /*LES CUBES DE COULEUR*/
+/*Cubes Jaunes*/
+[class*="col-1-jaune"], footer {
+  background-color: #F9EC18;
+  border: 0.5px solid white;
+}
+
+/*Cubes Orange*/
+[class*="col-1-orange"], footer {
+  background-color: #DFA315;
+  border: 0.5px solid white;
+}
+
+/*Cubes Noirs*/
+[class*="col-1-noir"], footer {
+  background-color: #000;
+  border: 0.5px solid white;
+}
+
+
+/*Cubes Blancs*/
+[class*="col-1-blanc"], footer {
+  background-color: #fff;
+  border: 0.5px solid white;
+}
